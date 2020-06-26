@@ -1,0 +1,270 @@
+body {
+  background-color: #f1bfb4;
+  height: 100%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+  margin: 2em;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+h2 {
+  color: #347854;
+}
+
+.navB1 {
+  padding: 50px;
+  background: #DCAEA4;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0.5%;
+}
+
+#link1 {
+  text-decoration: none;
+  color: #347854;
+  font-size: 30px;
+  padding: 16px;
+}
+
+#link1:hover {
+  background-color: #C29A92;
+}
+
+#link4 {
+  text-decoration: none;
+  color: #347854;
+  font-size: 30px;
+  padding: 16px;
+}
+
+#link4:hover {
+  background-color: #C29A92;
+}
+
+.dropbtn {
+  background-color: #DCAEA4;
+  padding: 16px;
+  font-size: 30px;
+  color: #347854;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #DCAEA4;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #347854;
+  padding: 12px 16px;
+  display: block;
+  text-decoration-line: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #C29A92;
+  text-decoration-line: none;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #C29A92;
+}
+
+.crazy {
+  margin-top: 25px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("https://cdn.glitch.com/bda96144-c164-443b-a08d-f6d0739ef952%2FParralax.png?v=1592935404998");
+
+  /* Set a specific height */
+  height: 307px;
+  width: 33%;
+
+  /*   margin-right:10% */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /*   clip: rect(0px,1000px,700px,0px); */
+}
+
+#statement {
+  display: flex;
+  justify-content: center;
+  font-size: 34px;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 350px;
+  dislpay: flex;
+  flex-flow: row nowrap;
+  background: #f1bfb4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* #p1 {
+  height: 307px;
+  width: 200px;
+} */
+
+.parallax2 {
+  /* The image used */
+  background-image: url("https://cdn.glitch.com/bda96144-c164-443b-a08d-f6d0739ef952%2FParralax.png?v=1592935404998");
+
+  /* Set a specific height */
+  height: 707px;
+  width: 33%;
+  /*   margin-right:10% */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#p2 {
+  /*   height: 707px;
+  width: 33%; */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("https://cdn.glitch.com/bda96144-c164-443b-a08d-f6d0739ef952%2FParralax.png?v=1592935404998");
+
+  /* Set a specific height */
+  height: 307px;
+  width: 33%;
+  /*   margin-right:10% */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*   clip: rect(0px,1000px,700px,0px) */
+}
+
+/* #p3 {
+  height: 307px;
+  width: 200px;
+} */
+
+.HSF {
+  background: #DCAEA4;
+  padding: 50px;
+  margin-top: 25px;
+}
+
+.ASF {
+  background: #DCAEA4;
+  padding: 50px;
+  margin-top: 25px;
+}
+
+.SFashion {
+  background: #DCAEA4;
+  padding: 50px;
+  margin-top: 25px;
+}
+
+.fashionPhotos {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SFashion img {
+  height: 20em;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.otherWays {
+  background: #DCAEA4;
+  padding: 50px;
+  margin-top: 25px;
+}
+
+#howTo {
+  text-indent: 5%;
+}
+#sustainable {
+  text-indent: 5%;
+}
+
+#link2 {
+  color: #347854;
+  text-decoration-line: none;
+}
+
+#link3 {
+  color: #347854;
+  text-decoration-line: none;
+}
+
+#thriftFashion {
+  text-indent: 5%;
+}
+
+#OW {
+  text-indent: 5%;
+}
+
+.Footer {
+  background: #DCAEA4;
+}
+
+.Social {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#FB {
+  height: 40px;
+  width: 40px;
+}
+
+#EM {
+  height: 40px;
+  width: 40px;
+}
+
+#IG {
+  height: 40px;
+  width: 40px;
+}
+
+#LI {
+  height: 40px;
+  width: 40px;
+}
